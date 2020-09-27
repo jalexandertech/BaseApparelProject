@@ -11,7 +11,7 @@
 
 /* CSS Grid */
 .container{
-    display: grid;
+    display: grid;]
     grid-template-columns: 830px 800px;
     grid-template-rows: 215px 512px 47px;
     grid-template-areas: 

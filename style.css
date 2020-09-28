@@ -63,6 +63,7 @@ h1{
     font-weight: 600;
     font-size: 75px;
     letter-spacing: 1.2rem;
+    text-shadow:hsl(0, 36%, 70%) 1px 0 10px; 
 }
 
 .firstword{

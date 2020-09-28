@@ -2,22 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
-    
+    max-width: 1440px;
     font-family: 'Josefin Sans', sans-serif;
 }
+
 
 /* CSS Grid */
 .container{
     display: grid;
-    width: 100vh;
-    grid-template-columns: 830px 1fr;
+    height: 100vh;
+    grid-template-columns: 830px 610px;
     grid-template-rows: 215px 512px 73px;
     grid-template-areas: 
     "header hero"
     "main hero"
     "footer hero";
 }
+
 
 header{
     grid-area: header;
@@ -34,13 +35,13 @@ header{
 
 #main{
     grid-area: main;
-    margin-left: 90px;
-    
+    margin-left: 90px;    
     
 }
 
 footer{
     grid-area: footer;
+    
 }
 
 
@@ -52,7 +53,7 @@ h1{
     letter-spacing: 1.5rem;
 }
 
-span{
+#main span{
     color: hsl(0, 36%, 70%);
     font-weight: 300;
 }
@@ -61,13 +62,37 @@ p{
     font-size: 16px;
     line-height: 1.8rem;
     padding:40px 260px 40px 0px;
+    color: hsl(0, 36%, 70%);
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 0.5px;
+}
+
+input[type=text]{
+    width: 55%;
+    padding: 20px;
+    margin-right: 100px;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 40px;
+}
+
+.button{
+    width: 15%;
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+    right: 180px;
+    border-radius:40px ;
+    background-image: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    
+}
+
+.button:hover{
+    background-image: linear-gradient(135deg,hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    
 }
 
 /* Footer Information */
 .attribution { font-size: 11px; text-align: center; height: 5px;}
 .attribution a { color: hsl(228, 45%, 44%);}
-
-  
-  
-
 

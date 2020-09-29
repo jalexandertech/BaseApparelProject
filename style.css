@@ -17,6 +17,27 @@
         "footer"
         ;}
     }
+    @media only screen and (min-width: 1690px){
+        #hero{
+            padding-left:284px;
+        }
+        #hero img{
+            min-height: 1057px;
+        }
+        footer{
+            padding-top: 240px;
+        }
+        
+        
+        #main p{
+            margin-top: 40px;
+        }
+        
+        input{
+            margin-top: 40px;
+        }
+        
+        }
 
 /* CSS Grid */
 .container{

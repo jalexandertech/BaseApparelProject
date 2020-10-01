@@ -11,9 +11,10 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    max-width: 1440px;
 }
 
-@media only screen and (max-width: 780px){
+@media only screen and (max-width: 445px){
     body{
         background-size: cover !important;
     }
@@ -86,35 +87,6 @@ body{
          
         }
 
-    @media only screen and (min-width: 786px){
-       .container{
-           background-size: cover !important;
-       }
-        #hero{
-            width: 100% !important;
-           
-        
-        }
-
-        #hero img{
-            height: 1057px ;
-            padding-left: 28px;
-        }
-        footer{
-            padding-top: 240px;
-        }
-        
-        
-        #main p{
-            margin-top: 40px;
-        }
-        
-        input{
-            margin-top: 40px;
-        }
-        
-        }
-        
 /* CSS Grid */
 .container{
     display: grid;

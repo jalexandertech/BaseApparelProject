@@ -120,7 +120,11 @@
     "header hero"
     "main hero"
     "footer hero";
-
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-position:  center;
+    background-size: cover;
 
 }
 

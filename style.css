@@ -18,7 +18,8 @@
          "hero"
          "main"
          "footer"
-         !important;}
+         !important;
+        background: none !important;}
  
          header, footer, #hero, #main{
              padding: 20px 0 !important;
@@ -88,12 +89,16 @@
     }
 
     @media only screen and (min-width: 1690px){
+       
         #hero{
-            padding-left:284px;
+            width: 100% !important;
+           
+        
         }
+
         #hero img{
-            min-height: 1057px;
-            width: 100%;
+            height: 1080px ;
+            padding-left: 200px;
         }
         footer{
             padding-top: 240px;
@@ -113,19 +118,19 @@
 /* CSS Grid */
 .container{
     display: grid;
-    height: 100vh;
+   
     grid-template-columns: 830px 610px;
     grid-template-rows: 215px 512px 70px;
     grid-template-areas: 
     "header hero"
     "main hero"
     "footer hero";
+
     background-image: url(images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
-    background-position: top center;
-    background-position:  center;
+    background-position:  top center;
     background-size: cover;
-
+    
 }
 
 

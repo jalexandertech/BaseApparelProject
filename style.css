@@ -10,10 +10,10 @@ body{
     background-image: url(images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: auto;
+    background-size: cover;
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 780px){
     body{
         background-size: cover !important;
     }
@@ -85,20 +85,8 @@ body{
          }
          
         }
-/* @media only screen and (min-width: 1441px){
-    #hero img{
-        padding:0px 70px;
-        
-    }
-    
-    header img{
-        padding-bottom: 80px !important;
-    }
 
-    
-    } */
-
-    @media only screen and (min-width: 1441px){
+    @media only screen and (min-width: 786px){
        .container{
            background-size: cover !important;
        }
